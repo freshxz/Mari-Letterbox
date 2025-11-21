@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#202530">
+
+    <!-- HEADER -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#202530"
+        android:gravity="center"
+        android:paddingStart="16dp">
+
+    </LinearLayout>
+
+    <!-- ABAS -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Letterboxd"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#202530"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="16dp">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:text="Films"
+            android:textColor="#14B8A6"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:text="Reviews"
+            android:textColor="#9AB"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:text="Lists"
+            android:textColor="#9AB"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <!-- DIVISOR -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#2C3440" />
+
+    <!-- SCROLL COM FILMES -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <!-- LINHA 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <!-- FILME 1: Superman -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="280dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:src="@drawable/superman"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="Superman Poster" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Superman"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:paddingTop="4dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="⭐ 4.5"
+                        android:textColor="#2FD566"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+
+                <!-- FILME 2: Jurassic -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="280dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:src="@drawable/jurassic"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="Jurassic Poster" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Jurassic"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:paddingTop="4dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="⭐ 4.2"
+                        android:textColor="#2FD566"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- LINHA 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <!-- FILME 3: F1 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="280dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:src="@drawable/f1"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="F1 Poster" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="F1"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:paddingTop="4dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="⭐ 4.0"
+                        android:textColor="#2FD566"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+
+                <!-- FILME 4: Sinner -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="280dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:src="@drawable/sinners"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="Sinner Poster" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sinner"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:paddingTop="4dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="⭐ 4.8"
+                        android:textColor="#2FD566"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- LINHA 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <!-- FILME 5: Bullet Train -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="280dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:src="@drawable/back"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="Back to the Future Poster" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Back to the Future"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:paddingTop="4dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="⭐ 4.1"
+                        android:textColor="#2FD566"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+
+                <!-- FILME 6: Demon Slayer -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="280dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:src="@drawable/demon"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="Demon Slayer Poster" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Demon Slayer"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:paddingTop="4dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="⭐ 4.7"
+                        android:textColor="#2FD566"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Letterboxd Colors -->
+    <color name="dark_bg">#14181C</color>
+    <color name="dark_gray">#2C3440</color>
+    <color name="gray_text">#9AB</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green_accent">#2FD566</color>
+    <color name="black">#FF000000</color>
+    <color name="blue_accent">#14B8A6</color>
+</resources>
+
+
